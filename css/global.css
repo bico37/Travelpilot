@@ -1,0 +1,64 @@
+@font-face {
+  font-family: inter;
+  src: url(../font/Inter/Inter.ttc);
+}
+@font-face {
+  font-family: arialFont;
+  src: url(../font/Arial/ARIAL.TTF);
+}
+@font-face {
+  font-family: arialFontBold;
+  src: url(../font/Arial/ARIALBD\ 1.TTF);
+}
+@font-face {
+  font-family: arialFontItalic;
+  src: url(../font/Arial/ARIALI\ 1.TTF);
+}
+@font-face {
+  font-family: arialFontItalicThin;
+  src: url(../font/Arial/ARIALLGTITL.TTF);
+}
+@font-face {
+  font-family: arialFontThin;
+  src: url(../font/Arial/ARIALLGT.TTF);
+}
+
+:root {
+  /* fonts */
+  --font-inter: inter;
+  --font-arial: arialFont;
+  --font-arial-thin: arialFontThin;
+  --font-arial-bold: arialFontBold;
+  --font-arial-italic: arialFontItalic;
+  --font-arial-italic-thin: arialFontItalicThin;
+
+  /* font sizes */
+  --font-size-nav-links: 1.5rem;
+  --font-size-headline: 3rem;
+  --font-size-nav-links: 1.5rem;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  /* background */
+  --color-background-lightGreen: #a5cf96;
+  --color-background-blue: #81c2a4;
+  --color-background-lightblue: #cbe3d4;
+  --color-background-green: #2c700b;
+  --color-background-green-lower-opacity: #2d700b9d;
+  --color-background-darkgreen: #153417;
+  --color-background-bluegreen: #6ba88c;
+
+  /* text */
+  --color-text-headline: #636365;
+  --color-text-darkestgreen: #183909;
+  --color-text-darkgreen: #153417;
+  --color-text-white: #fff;
+  --color-text-black: #0c1309;
+  /* Border */
+  --color-border-green-blue: #74b798;
+
+  /* Paddings */
+  --padding-nav-padding-top: 28px;
+  --padding-nav-login-padding-top: 23px;
+}

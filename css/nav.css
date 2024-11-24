@@ -1,0 +1,296 @@
+/* *********** */
+/* NAVIGATION */
+/* ********* */
+body{
+  overflow-x: hidden;
+}
+:root {
+  --font-gidugu: Gidugu;
+}
+
+/* nav overall */
+.nav-overall {
+  /* width: 104px; */
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  /* padding: 10px 0 0; */
+  box-sizing: border-box;
+
+  z-index: 9999;
+  width: 100%;
+  position: fixed;
+  background-color: transparent;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 72px 0 74px;
+  letter-spacing: normal;
+  gap: 20px;
+  text-align: center;
+  font-size: var(--font-size-nav-links);
+  color: var(--color-white);
+  font-family: var(--font-arial);
+
+  background-color: transparent;
+}
+
+/* header - logo, headline, vector*/
+.nav-header {
+  height: 70px;
+  width: 263px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 30px 18px 0 0;
+  box-sizing: border-box;
+  gap: 7px;
+  color: var(--color-text-headline);
+  font-family: var(--font-gidugu);
+}
+
+/* logo & headlilne */
+.nav-header-main {
+  cursor: pointer;
+
+  margin-top: -30px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+
+/* logo */
+.nav-header-main-logo {
+  height: 60px;
+  width: 55px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 25px;
+  left: -48px;
+  object-fit: cover;
+
+  filter: drop-shadow(2px 2px 1px rgb(0, 0, 0));
+}
+
+/* headline */
+.nav-header-main-headl {
+  padding-top: 10px;
+  left: 30px;
+  margin: 0;
+  height: 81px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-headline);
+  font-weight: 200;
+  display: inline-block;
+  z-index: 1;
+  font-family: var(--font-gidugu);
+}
+#nav-headline {
+  /* font-size: var(--font-size-main-headline); */
+  /* text-transform: capitalize; */
+  /* font-weight: 800; */
+  font-family: var(--font-gidugu);
+}
+
+/* Vector */
+.nav-header-circle {
+  height: 8px;
+  width: 8px;
+  position: relative;
+  mix-blend-mode: normal;
+  top: 8px;
+  left: 80px;
+}
+
+/* Subpages Links */
+/* Hover effekt ---> https://www.30secondsofcode.org/css/s/hover-underline-animation/*/
+.nav-subpage-text-yourTrip::after,
+.nav-subpage-text-hotels::after,
+.nav-subpage-text-flights::after,
+.nav-subpage-text-cars::after,
+.nav-subpage-text-activities::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-subpage-text-yourTrip:hover::after,
+.nav-subpage-text-hotels:hover::after,
+.nav-subpage-text-flights:hover::after,
+.nav-subpage-text-cars:hover::after,
+.nav-subpage-text-activities:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* Your Trip */
+.nav-subpage-yourTrip {
+  width: 134px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-nav-padding-top) 0 0;
+  box-sizing: border-box;
+}
+.nav-subpage-text-yourTrip {
+  align-self: stretch;
+  position: relative;
+  cursor: pointer;
+}
+
+/* Hotels */
+.nav-subpage-hotels {
+  width: 82.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-nav-padding-top) 0 0;
+  box-sizing: border-box;
+}
+.nav-subpage-text-hotels {
+  align-self: stretch;
+  position: relative;
+  cursor: pointer;
+}
+
+/* Flights */
+.nav-subpage-flights {
+  width: 86.1px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-nav-padding-top) 0 0;
+  box-sizing: border-box;
+}
+.nav-subpage-text-flights {
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+  min-width: 86.1px;
+  cursor: pointer;
+}
+
+/* Cars */
+.nav-subpage-cars {
+  width: 58.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-nav-padding-top) 0 0;
+  box-sizing: border-box;
+}
+.nav-subpage-text-cars {
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+  min-width: 58.8px;
+  cursor: pointer;
+}
+
+/* Activities */
+.nav-subpage-activities {
+  width: 157.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-nav-padding-top) 0 0;
+  box-sizing: border-box;
+}
+.nav-subpage-text-activities {
+  width: 116.6px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 116.6px;
+  cursor: pointer;
+}
+
+/* Login Button */
+.nav-login {
+  width: 8vw;
+  padding: 0 10.5vw 0 10.5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-nav-login-padding-top) 0 0 0;
+  box-sizing: border-box;
+}
+.nav-login-sub-components {
+  cursor: pointer;
+  border: 0;
+  padding: 5px 14.5px;
+  background-color: var(--color-background-green);
+  align-self: stretch;
+  border-radius: 11.5px;
+  overflow: hidden;
+}
+.nav-login-navigation-label {
+  flex: 1;
+  padding: 2px 3.5px;
+}
+
+.nav-login-divcursorpointer,
+.nav-login-navigation-label,
+.nav-login-sub-components {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.nav-login-divcursorpointer {
+  flex: 1;
+}
+
+.nav-login-text {
+  height: 23px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-nav-links);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 68px;
+}
+
+/* Login Message */
+#loginMessage {
+  position: absolute;
+  right: -20%; /*Startposition außerhalb des sichtbaren Bereichs */
+  top: 10%;
+  font-size: 1.8em;
+  font-family: Arial;
+  z-index: 9999;
+  transition: right 0.9s; /* Animation für die right-Eigenschaft */
+  background-color: rgba(255, 255, 255, 0.699);
+  padding: 0.5vw;
+  border-radius: 0.8vw 0 0 0.8vw;
+}
+
+#loginMessage.show {
+  right: 0%; /* Endposition */
+}

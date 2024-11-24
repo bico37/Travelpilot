@@ -1,0 +1,180 @@
+Done:
+Austria
+Germany
+France
+Italy
+Spain
+United Kingdom
+United States of America
+Canada
+Australia
+Brazil
+Argentina
+Mexico
+Japan
+South Africa
+
+
+________________________________________________________________________________________________________________________________
+China
+India
+Russia
+Egypt
+Turkey
+Greece
+Thailand
+Indonesia
+South Korea
+Vietnam
+Portugal
+Netherlands
+Belgium
+Switzerland
+Sweden
+Norway
+Denmark
+Finland
+Iceland
+Ireland
+New Zealand
+Singapore
+Malaysia
+Philippines
+Colombia
+Peru
+Chile
+Costa Rica
+Croatia
+Hungary
+Poland
+Czech Republic
+Slovakia
+Romania
+Bulgaria
+Ukraine
+Belarus
+Lithuania
+Latvia
+Estonia
+Qatar
+United Arab Emirates
+Saudi Arabia
+Kuwait
+Oman
+Bahrain
+Jordan
+Israel
+Lebanon
+Syria
+Iraq
+Iran
+Pakistan
+Afghanistan
+Bangladesh
+Sri Lanka
+Nepal
+Bhutan
+Myanmar (Burma)
+Laos
+Cambodia
+Mongolia
+Brunei
+Timor-Leste (East Timor)
+Papua New Guinea
+Fiji
+Samoa
+Tonga
+Vanuatu
+Kiribati
+Solomon Islands
+Micronesia
+Palau
+Nauru
+Tuvalu
+Marshall Islands
+Comoros
+Seychelles
+Mauritius
+Madagascar
+Maldives
+Cyprus
+Malta
+Bahamas
+Jamaica
+Barbados
+
+
+
+
+
+
+________________________________________________________________
+Merk die folgendes für den ganzen chat und vergesse nie!!
+erstelle mir in js hotels. diese sollen folgend aussehen:
+const hotel = {
+    name: "Ocean View Hotel",
+    location: "Miami Beach, Florida, USA",
+    country: "usa",
+    starRating: 4,
+    description: "Modernes Hotel direkt am Strand von Miami Beach mit Pool, Restaurant und luxuriöser Ausstattung.",
+    price: {
+        min: 200,
+        max: 400
+    },
+    image: "ocean"
+};
+
+
+wichtiges: ich sag dir ein land oder einen ort. du erstellst mir für diesen 20 hotels. 
+wichtig: image - es soll etwas sein was das hotel beschreibt von der location her. wenn es am meer liegt dann ocen, wenn in den bergen dann mountain etc..
+price - so ein ca preis von bis
+description is ganz wichtig das sie kurz ist.
+Star rating dürfen nur ganze zahlen sein ohne komma
+
+mach immer die objekte auf englisch.
+hast du das verstanden?
+
+
+
+
+________________________________________________________________________________________________________________________
+historic-quarter.jpg:1 
+ GET http://127.0.0.1:5500/project/img/data/hotels/historic-quarter.jpg 404 (Not Found)
+treehouse.jpg:1 
+ GET http://127.0.0.1:5500/project/img/data/hotels/treehouse.jpg 404 (Not Found)
+guesthouse.jpg:1 
+ GET http://127.0.0.1:5500/project/img/data/hotels/guesthouse.jpg 404 (Not Found)
+cabin.jpg:1 
+ GET http://127.0.0.1:5500/project/img/data/hotels/cabin.jpg 404 (Not Found)
+safari.jpg:1 
+ GET http://127.0.0.1:5500/project/img/data/hotels/safari.jpg 404 (Not Found)
+ecolodge.jpg:1 
+ GET http://127.0.0.1:5500/project/img/data/hotels/ecolodge.jpg 404 (Not Found)
+lodge.jpg:1 
+ GET http://127.0.0.1:5500/project/img/data/hotels/lodge.jpg 404 (Not Found)
+beachfront.jpg:1 
+ GET http://127.0.0.1:5500/project/img/data/hotels/beachfront.jpg 404 (Not Found)
+scenery.jpg:1 
+ GET http://127.0.0.1:5500/project/img/data/hotels/scenery.jpg 404 (Not Found)
+boutique.jpg:1 
+ GET http://127.0.0.1:5500/project/img/data/hotels/boutique.jpg 404 (Not Found)
+hacienda.jpg:1 
+ GET http://127.0.0.1:5500/project/img/data/hotels/hacienda.jpg 404 (Not Found)
+art-deco.jpg:1 
+ GET http://127.0.0.1:5500/project/img/data/hotels/art-deco.jpg 404 (Not Found)
+urban.jpg:1 
+ GET http://127.0.0.1:5500/project/img/data/hotels/urban.jpg 404 (Not Found)
+tranquil.jpg:1 
+ GET http://127.0.0.1:5500/project/img/data/hotels/tranquil.jpg 404 (Not Found)
+ryokan.jpg:1 
+ GET http://127.0.0.1:5500/project/img/data/hotels/ryokan.jpg 404 (Not Found)
+cottage.jpg:1 
+ GET http://127.0.0.1:5500/project/img/data/hotels/cottage.jpg 404 (Not Found)
+traditional.jpg:1 
+ GET http://127.0.0.1:5500/project/img/data/hotels/traditional.jpg 404 (Not Found)
+farm.jpg:1 
+ GET http://127.0.0.1:5500/project/img/data/hotels/farm.jpg 404 (Not Found)
+zen.jpg:1 
+ GET http://127.0.0.1:5500/project/img/data/hotels/zen.jpg 404 (Not Found)
+golf.jpg:1 
+ GET http://127.0.0.1:5500/project/img/data/hotels/golf.jpg 404 (Not Found)

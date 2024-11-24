@@ -1,0 +1,411 @@
+Checklist for Departing Cities
+------------------------------
+
+Done:
+Linz
+Vienna
+Munich
+Frankfurt
+Hamburg
+Berlin
+London (Vereinigtes Königreich)
+Paris (Frankreich)
+Amsterdam (Niederlande) 
+Madrid (Spanien)
+Barcelona (Spanien)
+Istanbul (Türkei)
+Rom (Italien)
+Zürich (Schweiz)
+Dublin (Irland)
+Kopenhagen (Dänemark)
+Stockholm (Schweden)
+Lissabon (Portugal)
+Moskau (Russland)
+Athen (Griechenland)
+Oslo (Norwegen)
+Warschau (Polen)
+Budapest (Ungarn)
+Hartsfield-Jackson Atlanta International Airport (Atlanta, USA)
+Los Angeles International Airport (Los Angeles, USA)
+O'Hare International Airport (Chicago, USA)
+Dallas/Fort Worth International Airport (Dallas/Fort Worth, USA)
+Dubai International Airport (Dubai, Vereinigte Arabische Emirate)
+Beijing Capital International Airport (Peking, China)
+Tokyo Haneda Airport (Tokio, Japan)
+Indira Gandhi International Airport (Delhi, Indien)
+Shanghai Pudong International Airport (Shanghai, China)
+Hong Kong International Airport (Hongkong)
+cape town
+Vancouver
+
+________________________________________________________________
+
+Logos Fluggesellschaften:
+Gefiltert:
+
+Done: 
+Austrian Airlines - austrian_airlines
+Lufthansa - lufthansa
+Swiss International Air Lines - swiss
+Wizz Air - wizz_air
+Czech Airlines - czech_airlines
+Air France - air_france
+Alitalia - alitalia
+Iberia - iberia
+British Airways - british_airways
+SAS Scandinavian Airlines - sas
+TAP Air Portugal - tap
+Finnair - finnair
+Norwegian Air Shuttle - norwegian
+LOT Polish Airlines - lot
+Brussels Airlines - brussels_airlines
+KLM Royal Dutch Airlines - klm
+Delta Air Lines - delta
+Emirates - emirates
+All Nippon Airways - all_nippon_airways
+Air China - air_china
+Aeroflot - aeroflot
+Vueling Airlines - vueling
+Turkish Airlines - turkish_airlines
+Air Canada - air_canada
+Singapore Airlines - singapore_airlines
+LATAM Airlines - latam
+Qantas - qantas
+South African Airways - south_african_airways
+Korean Air - korean_air
+Thai Airways - thai_airways
+Aer Lingus - aer_lingus
+Japan Airlines - japan_airlines
+Air India - air_india
+IndiGo - indigo
+SpiceJet - spicejet
+Vistara - vistara
+China Eastern Airlines - china_eastern_airlines
+China Southern Airlines - china_southern_airlines
+Spring Airlines - spring_airlines
+China Airlines - china_airlines
+Olympic Air - olympic_air
+Philippine Airlines - philippine_airlines
+Vietnam Airlines - vietnam_airlines
+Garuda Indonesia - garuda_indonesia
+Cathay Dragon - cathay_dragon
+Aegean Airlines - aegean
+
+Aegean Airlines - aegean
+American Airlines - american
+Air Berlin - air_berlin
+Cathay Pacific - cathay_pacific
+Asiana Airlines - asiana_airlines
+Malaysia Airlines - malaysia_airlines
+United Airlines - united
+Aeromexico - aeromexico
+Mango Airlines - mango
+Air Namibia - air_namibia
+Air Botswana - air_botswana
+Air Zimbabwe - air_zimbabwe
+LAM Mozambique Airlines - lam
+WestJet - westjet
+Harbour Air - harbour_air
+Virgin Australia - virgin_australia
+
+
+
+
+
+
+
+
+
+
+ToDo:
+
+----------------
+
+
+
+
+
+
+
+________________________________________________________________________________
+Alle:
+
+
+Austrian Airlines - austrian_airlines
+Lufthansa - lufthansa
+Swiss International Air Lines - swiss
+Wizz Air - wizz_air
+Czech Airlines - czech_airlines
+Air France - air_france
+Alitalia - alitalia
+Iberia - iberia
+British Airways - british_airways
+SAS Scandinavian Airlines - sas
+TAP Air Portugal - tap_air_portugal
+Finnair - finnair
+Norwegian Air Shuttle - norwegian
+LOT Polish Airlines - lot
+Brussels Airlines - brussels_airlines
+KLM Royal Dutch Airlines - klm
+Delta Air Lines - delta
+Emirates - emirates
+All Nippon Airways - all_nippon_airways
+Air China - air_china
+Aeroflot - aeroflot
+
+Lufthansa - lufthansa
+Alitalia - alitalia
+Iberia - iberia
+British Airways - british_airways
+KLM Royal Dutch Airlines - klm
+Swiss International Air Lines - swiss
+Austrian Airlines - austrian_airlines
+Vueling Airlines - vueling
+Turkish Airlines - turkish_airlines
+Emirates - emirates
+Air Canada - air_canada
+All Nippon Airways - all_nippon_airways
+Singapore Airlines - singapore_airlines
+LATAM Airlines - latam
+Qantas - qantas
+
+Lufthansa - lufthansa
+Alitalia - alitalia
+Iberia - iberia
+British Airways - british_airways
+KLM Royal Dutch Airlines - klm
+Swiss International Air Lines - swiss
+Austrian Airlines - austrian_airlines
+Emirates - emirates
+Air Canada - air_canada
+All Nippon Airways - all_nippon_airways
+Singapore Airlines - singapore_airlines
+LATAM Airlines - latam
+Qantas - qantas
+South African Airways - south_african_airways
+Korean Air - korean_air
+Thai Airways - thai_airways
+
+Lufthansa - lufthansa
+Alitalia - alitalia
+Iberia - iberia
+British Airways - british_airways
+KLM Royal Dutch Airlines - klm
+Swiss International Air Lines - swiss
+Austrian Airlines - austrian_airlines
+Vueling Airlines - vueling
+Turkish Airlines - turkish_airlines
+
+Lufthansa - lufthansa
+Alitalia - alitalia
+Iberia - iberia
+British Airways - british_airways
+KLM Royal Dutch Airlines - klm
+Swiss International Air Lines - swiss
+Austrian Airlines - austrian_airlines
+Vueling Airlines - vueling
+Turkish Airlines - turkish_airlines
+Emirates - emirates
+Air Canada - air_canada
+All Nippon Airways - all_nippon_airways
+Singapore Airlines - singapore_airlines
+Air China - air_china
+LATAM Airlines - latam
+Qantas - qantas
+South African Airways - south_african_airways
+Korean Air - korean_air
+Thai Airways - thai_airways
+
+British Airways - british_airways
+Alitalia - alitalia
+Iberia - iberia
+KLM Royal Dutch Airlines - klm
+Swiss International Air Lines - swiss
+Austrian Airlines - austrian_airlines
+Vueling Airlines - vueling
+Turkish Airlines - turkish_airlines
+Emirates - emirates
+Air Canada - air_canada
+All Nippon Airways - all_nippon_airways
+Singapore Airlines - singapore_airlines
+Air China - air_china
+LATAM Airlines - latam
+Qantas - qantas
+South African Airways - south_african_airways
+Korean Air - korean_air
+Thai Airways - thai_airways
+
+Air France - air_france
+
+KLM Royal Dutch Airlines - klm
+
+Iberia - iberia
+
+Vueling - vueling
+
+Turkish Airlines - turkish_airlines
+
+Alitalia - alitalia
+
+Swiss International Air Lines - swiss
+
+Aer Lingus - aer_lingus
+
+SAS Scandinavian Airlines - sas
+
+TAP Air Portugal - tap
+
+Aeroflot - aeroflot
+
+Aegean Airlines - aegean
+
+Norwegian - norwegian
+
+LOT Polish Airlines - lot
+
+Wizz Air - wizzair
+
+Delta Air Lines - delta
+
+American Airlines - american
+
+United Airlines - united
+
+Emirates - emirates
+
+Japan Airlines - japan_airlines
+All Nippon Airways - all_nippon_airways
+
+Air India - air_india
+IndiGo - indigo
+SpiceJet - spicejet
+Vistara - vistara
+
+CChina Eastern Airlines - china_eastern_airlines
+China Southern Airlines - china_southern_airlines
+Spring Airlines - spring_airlines
+China Airlines - china_airlines
+Air France - air_france
+Lufthansa - lufthansa
+KLM Royal Dutch Airlines - klm_royal_dutch_airlines
+Iberia - iberia
+Alitalia - alitalia
+Olympic Air - olympic_air
+SAS Scandinavian Airlines - sas_scandinavian_airlines
+Scandinavian Airlines - scandinavian_airlines
+Delta Air Lines - delta_air_lines
+United Airlines - united_airlines
+Air Canada - air_canada
+Qantas - qantas
+LATAM Airlines - latam_airlines
+South African Airways - south_african_airways
+Aeromexico - aeromexico
+Emirates - emirates
+Singapore Airlines - singapore_airlines
+Thai Airways - thai_airways
+Malaysia Airlines - malaysia_airlines
+Japan Airlines - japan_airlines
+Korean Air - korean_air
+Aeroflot - aeroflot
+Air Berlin - air_berlin
+TAP Air Portugal - tap_air_portugal
+Finnair - finnair
+Aer Lingus - aer_lingus
+Austrian Airlines - austrian_airlines
+
+
+Cathay Dragon - cathay_dragon
+Cathay Pacific - cathay_pacific
+Asiana Airlines - asiana_airlines
+Thai Airways - thai_airways
+Singapore Airlines - singapore_airlines
+Philippine Airlines - philippine_airlines
+Vietnam Airlines - vietnam_airlines
+Malaysia Airlines - malaysia_airlines
+Garuda Indonesia - garuda_indonesia
+British Airways - british_airways
+Air France - air_france
+Lufthansa - lufthansa
+KLM Royal Dutch Airlines - klm_royal_dutch_airlines
+Iberia - iberia
+Alitalia - alitalia
+Olympic Air - olympic_air
+SAS Scandinavian Airlines - sas_scandinavian_airlines
+Scandinavian Airlines - scandinavian_airlines
+Delta Air Lines - delta_air_lines
+United Airlines - united_airlines
+Air Canada - air_canada
+Qantas - qantas
+LATAM Airlines - latam_airlines
+South African Airways - south_african_airways
+Aeromexico - aeromexico
+Emirates - emirates
+Singapore Airlines - singapore_airlines
+Thai Airways - thai_airways
+Malaysia Airlines - malaysia_airlines
+Japan Airlines - japan_airlines
+Korean Air - korean_air
+Aeroflot - aeroflot
+Air Berlin - air_berlin
+TAP Air Portugal - tap_air_portugal
+Finnair - finnair
+Aer Lingus - aer_lingus
+Austrian Airlines - austrian_airlines
+
+
+South African Airways - south_african_airways
+Mango Airlines - mango
+Air Namibia - air_namibia
+Air Botswana - air_botswana
+Air Zimbabwe - air_zimbabwe
+LAM Mozambique Airlines - lam_mozambique_airlines
+British Airways - british_airways
+KLM Royal Dutch Airlines - klm
+Air France - air_france
+Lufthansa - lufthansa
+Iberia - iberia
+Delta Air Lines - delta
+United Airlines - united_airlines
+Emirates - emirates
+Cathay Pacific - cathay_pacific
+Qantas - qantas
+Singapore Airlines - singapore_airlines
+Japan Airlines - japan_airlines
+Thai Airways - thai_airways
+LATAM Airlines - latam_airlines
+Air Canada - air_canada
+Air Berlin - air_berlin
+
+Air Canada - air_canada
+WestJet - westjet
+Harbour Air - harbour_air
+British Airways - british_airways
+KLM Royal Dutch Airlines - klm
+Air France - air_france
+Lufthansa - lufthansa
+Austrian Airlines - austrian_airlines
+Delta Air Lines - delta
+United Airlines - united_airlines
+Emirates - emirates
+Japan Airlines - japan_airlines
+Qantas - qantas
+Air China - air_china
+Korean Air - korean_air
+Aeromexico - aeromexico
+LATAM Airlines - latam_airlines
+Air Berlin - air_berlin
+Alitalia - alitalia
+Vueling Airlines - vueling
+Iberia - iberia
+SAS Scandinavian Airlines - sas
+Swiss International Air Lines - swiss
+Cathay Pacific - cathay_pacific
+Virgin Australia - virgin_australia
+All Nippon Airways - ana
+Asiana Airlines - asiana_airlines
+Thai Airways - thai_airways
+Air India - air_india
+Singapore Airlines - singapore_airlines
+Aeroflot - aeroflot
+
+

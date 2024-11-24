@@ -1,0 +1,375 @@
+* {
+  /* outline: 2px dotted red; */
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-background-lightGreen);
+  scroll-behavior: smooth;
+}
+
+/* ROOT */
+@font-face {
+  font-family: inter;
+  src: url(../font/Inter/Inter.ttc);
+}
+@font-face {
+  font-family: arialFont;
+  src: url(../font/Arial/ARIAL.TTF);
+}
+@font-face {
+  font-family: arialFontBold;
+  src: url(../font/Arial/ARIALBD\ 1.TTF);
+}
+@font-face {
+  font-family: arialFontItalic;
+  src: url(../font/Arial/ARIALI\ 1.TTF);
+}
+@font-face {
+  font-family: arialFontItalicThin;
+  src: url(../font/Arial/ARIALLGTITL.TTF);
+}
+@font-face {
+  font-family: arialFontThin;
+  src: url(../font/Arial/ARIALLGT.TTF);
+}
+
+:root {
+  /* fonts */
+  --font-inter: inter;
+  --font-arial: arialFont;
+  --font-arial-thin: arialFontThin;
+  --font-arial-bold: arialFontBold;
+  --font-arial-italic: arialFontItalic;
+  --font-arial-italic-thin: arialFontItalicThin;
+
+  --font-gidugu: Gidugu;
+
+  /* font sizes */
+  /* --font-size-nav-links: 1.5rem;
+  --font-size-headline: 3rem;
+  --font-size-nav-links: 1.5rem;
+  --font-size-section-seperation: 2rem;
+  --font-size-section2-headl: 1rem;
+  --font-size-section2-text: 0.8rem;
+  --font-size-section2-text: clamp(0.5rem, 1.5vw, 0.8rem);
+  --font-size-section3-headl: 1.8rem;
+  --font-size-section3-text: clamp(1rem, 1rem + 1.4vw, 1.4rem);
+
+  --font-size-footer-headline: 1.4rem;
+  --font-size-footer-text: 1.2rem;
+  --font-size-footer-impressum: 1rem; */
+
+  --font-size-yourTrip-headline: 2.5rem;
+  --font-size-yourTrip-planTrip: 1.8rem;
+  --font-size-tripOverview-textSize: 1.3rem;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-white-lower-opacity: #ffffffe2;
+  --color-black: #000;
+  /* background */
+  --color-background-lightGreen: #a5cf96;
+  --color-background-bitDarker-LightGreen: #8cbb7c;
+  --color-background-blue: #81c2a4;
+  --color-background-lightblue: #cbe3d4;
+  --color-background-green: #2c700b;
+  --color-background-green-lower-opacity: #2d700b9d;
+  --color-background-darkgreen: #153417;
+  --color-background-bluegreen: #6ba88c;
+
+  /* text */
+  --color-text-headline: #636365;
+  --color-text-darkestgreen: #183909;
+  --color-text-darkgreen: #153417;
+  --color-text-white: #fff;
+  --color-text-black: #0c1309;
+  /* Border */
+  --color-border-green-blue: #74b798;
+
+  /* Paddings */
+  --padding-nav-padding-top: 28px;
+  --padding-nav-login-padding-top: 23px;
+}
+
+/* ****************************** */
+/* *********** Content  ******** */
+/* **************************** */
+.content-yourTrip {
+  padding: 5vw 0 0 0vw;
+}
+
+/* Headline */
+.headline {
+  color: var(--color-background-darkgreen);
+
+  font-family: var(--font-inter);
+  font-size: var(--font-size-yourTrip-headline);
+  /* font-size: 5rem; */
+  font-style: italic;
+  font-weight: 800;
+  line-height: normal;
+
+  margin: 0;
+  padding: 0;
+}
+
+/* Layout */
+.layout {
+  display: grid;
+  grid-template-columns: 55% 45%;
+}
+
+/* All Trips */
+
+.allTrips {
+  margin-left: 2vw;
+  margin-top: 2vw;
+  width: 40vw;
+  height: 35vw;
+
+  border-radius: 60px 45px 45px 0px;
+  border: 2px solid #000;
+
+  background: var(--color-background-bitDarker-LightGreen);
+
+  box-shadow: 9px 10px 16.7px 0px rgba(0, 0, 0, 0.25);
+
+  overflow-y: scroll;
+
+  /* Grid für abschnitt plan new trip und alle trips die erstellt */
+  display: grid;
+  grid-template-rows: 25% auto;
+  justify-content: center;
+}
+.allTrips::-webkit-scrollbar {
+  display: none; /* Verstecke die Scrollleiste */
+}
+
+/* Create New */
+.allTrips-createNew {
+  position: sticky;
+  top: 1vw;
+
+  grid-row: 1;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+
+  margin-top: 2vw;
+  height: 4.5vw;
+  width: 35vw;
+  border-radius: 10px 40px 40px 10px;
+  border: 1px solid #000;
+
+  background: var(--color-white-lower-opacity);
+
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+  cursor: pointer;
+}
+
+.allTrips-plusVector {
+  margin-left: 1.5vw;
+  width: 3vw;
+}
+
+.allTrips-Text {
+  width: 80%;
+  text-align: center;
+  font-size: var(--font-size-yourTrip-planTrip);
+  font-family: var(--font-inter);
+  font-weight: 600;
+}
+
+/* Trips created */
+/* Overall */
+.allTrips-created {
+  grid-row: 2;
+  padding: 0;
+}
+
+/* Design for all Trips */
+.singleTrip-design {
+  display: flex;
+  align-items: center;
+
+  height: 4.5vw;
+  width: 35vw;
+  border-radius: 10px 40px 40px 10px;
+  border: 1px solid #000;
+
+  background: var(--color-white-lower-opacity);
+
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+  margin: 0.7vw 0 0.7vw 0;
+
+  /* Bild in mitte */
+  background-size: cover;
+  background-position: center center;
+
+  cursor: pointer;
+}
+
+.trip-text {
+  width: 100%;
+  text-align: center;
+  font-size: var(--font-size-yourTrip-planTrip);
+  font-family: var(--font-inter);
+  font-weight: 600;
+}
+
+/* Individual Design */
+#trip1 {
+  background-image: url(../img/yourTrip/paris.jpg);
+}
+
+/* ********************* */
+/* ****Choosen Trip**** */
+/* ******************* */
+
+.tripOverview {
+  grid-column: 2;
+  margin: 2vw 0 0 6vw;
+
+  width: 30vw;
+  height: 35vw;
+
+  border-radius: 1vw;
+
+  background: var(--color-background-bitDarker-LightGreen);
+
+  box-shadow: 0px 0px 30px 4px rgba(0, 0, 0, 0.429);
+
+  display: grid;
+  grid-template-rows: 15% 35% 50%;
+  justify-content: center;
+}
+
+/* Name Input */
+.tripOverview-nameInput {
+  width: 24vw;
+
+  display: grid;
+  grid-template-columns: 80% 20%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1vw;
+  padding: 0.5vw;
+  border-radius: 0.5vw;
+
+  /* width: 24vw; */
+  height: 2.5vw;
+  background-color: var(--color-border-green-blue);
+
+  box-shadow: 5px 5px 9px -3px rgba(0, 0, 0, 0.24);
+}
+.tripOverview-text {
+  margin: 0;
+  padding: 0;
+  font-size: 1.9rem;
+  font-family: var(--font-arial);
+}
+.tripOverview-nameEdit {
+  width: 2vw;
+  margin-left: 50%;
+  cursor: pointer;
+}
+
+/* FILE */
+.tripOverview-img {
+  /* margin-top: 0vw; */
+  margin-bottom: 0.5vw;
+  padding: 0.5vw;
+  border-radius: 0.5vw;
+
+  /* width: 24vw; */
+  /* height: 11.5vw; */
+  /* background-color: var(--color-background-lightGreen); */
+  box-shadow: 5px 5px 20px 1px rgba(0, 0, 0, 0.5);
+}
+
+.tripOverview-fileChoose {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5vw;
+  padding: 0.4vw;
+  background-color: var(--color-background-darkgreen);
+}
+.tripOverview-fileChoose p {
+  color: white;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+
+  font-size: 1.2rem;
+  font-family: var(--font-inter);
+}
+.tripOverview-fileInput {
+  display: grid;
+  margin-left: 30%;
+  margin-top: 0.3vw;
+  color: var(--color-background-darkgreen);
+}
+/* Img */
+.tripOverview-outputImg {
+  margin-top: 0.5vw;
+  /* width: 24vw; */
+  height: 60%;
+}
+.tripOverview-outputImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1vw;
+}
+
+/* Trip Overview Total coast */
+.tripOverview-totalsCoastOverview {
+  height: 95%;
+  /* background-color: var(--color-background-lightGreen); */
+  /* border: 2px solid rgb(21, 74, 21); */
+  /* margin: 0.5vw; */
+  padding: 0 1vw 0 1vw;
+
+  border-radius: 1vw;
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 1);
+}
+
+.tripOverview-type {
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+
+.tripOverview-typeText {
+  margin: 0.5vw 0 0.5vw 0;
+  padding: 0;
+
+  font-size: var(--font-size-tripOverview-textSize);
+  font-family: var(--font-inter);
+  color: var(--color-text-white);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.tripOverview-typePrice {
+  margin: 0.5vw 0 0.5vw 0;
+  padding: 0;
+
+  font-size: var(--font-size-tripOverview-textSize);
+  font-family: var(--font-inter);
+  color: var(--color-text-white);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+/* total */
+.tripOverview-totalPrice {
+  border-top: 2px solid var(--color-white);
+  margin: 3vw 0 0 0;
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+

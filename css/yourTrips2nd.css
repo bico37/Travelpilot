@@ -1,0 +1,1102 @@
+* {
+  /* outline: 2px dotted red; */
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-background-lightGreen);
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+/* ROOT */
+@font-face {
+  font-family: inter;
+  src: url(../font/Inter/Inter.ttc);
+}
+
+@font-face {
+  font-family: arialFont;
+  src: url(../font/Arial/ARIAL.TTF);
+}
+
+@font-face {
+  font-family: arialFontBold;
+  src: url(../font/Arial/ARIALBD\ 1.TTF);
+}
+
+@font-face {
+  font-family: arialFontItalic;
+  src: url(../font/Arial/ARIALI\ 1.TTF);
+}
+
+@font-face {
+  font-family: arialFontItalicThin;
+  src: url(../font/Arial/ARIALLGTITL.TTF);
+}
+
+@font-face {
+  font-family: arialFontThin;
+  src: url(../font/Arial/ARIALLGT.TTF);
+}
+
+:root {
+  /* fonts */
+  --font-inter: inter;
+  --font-arial: arialFont;
+  --font-arial-thin: arialFontThin;
+  --font-arial-bold: arialFontBold;
+  --font-arial-italic: arialFontItalic;
+  --font-arial-italic-thin: arialFontItalicThin;
+
+  --font-gidugu: Gidugu;
+
+  /* font sizes */
+  /* --font-size-nav-links: 1.5rem;
+    --font-size-headline: 3rem;
+    --font-size-nav-links: 1.5rem;
+    --font-size-section-seperation: 2rem;
+    --font-size-section2-headl: 1rem;
+    --font-size-section2-text: 0.8rem;
+    --font-size-section2-text: clamp(0.5rem, 1.5vw, 0.8rem);
+    --font-size-section3-headl: 1.8rem;
+    --font-size-section3-text: clamp(1rem, 1rem + 1.4vw, 1.4rem);
+  
+    --font-size-footer-headline: 1.4rem;
+    --font-size-footer-text: 1.2rem;
+    --font-size-footer-impressum: 1rem; */
+
+  --font-size-yourTrip-headline: 2.5rem;
+  --font-size-yourTrip-planTrip: 1.8rem;
+  --font-size-tripOverview-textSize: 1.3rem;
+  --font-size-ausg-name:1.6em;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-white-lower-opacity: #ffffffd0;
+  --color-offWhite: #FAF9F6;
+  --color-black: #000;
+  /* background */
+  --color-background-lightGreen: #a5cf96;
+  --color-background-bitDarker-LightGreen: #8cbb7c;
+  --color-background-blue: #81c2a4;
+  --color-background-lightblue: #cbe3d4;
+  --color-background-green: #2c700b;
+  --color-background-green-lower-opacity: #2d700b9d;
+  --color-background-darkgreen: #153417;
+  --color-background-bluegreen: #6ba88c;
+
+  /* text */
+  --color-text-headline: #636365;
+  --color-text-darkestgreen: #183909;
+  --color-text-darkgreen: #153417;
+  --color-text-white: #fff;
+  --color-text-black: #0c1309;
+  /* Border */
+  --color-border-green-blue: #74b798;
+
+  /* Paddings */
+  --padding-nav-padding-top: 28px;
+  --padding-nav-login-padding-top: 23px;
+}
+
+/* ****************************** */
+/* *********** Content  ******** */
+/* **************************** */
+.currentTrip-content {
+  padding: 5vw 0 0 0vw;
+}
+
+/* Grid */
+.currentTrip-grid {
+  margin: 0 2vw 0 2vw;
+  padding-left: 2vw;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-auto-rows: minmax(auto, 100%);
+  gap: 1vw;
+
+  border-radius: 32px;
+  opacity: 1;
+  background: var(--color-background-bitDarker-LightGreen);
+
+  height: 84vh;
+}
+
+/* GRID 1 */
+.currentTrip-grid1 {
+  grid-column: 1;
+
+  padding: 0.4vw;
+}
+
+/* Name */
+.currentTrip-name {
+  margin: 1vw;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 1vw;
+}
+#inputPlace{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    font-size: 1.4em;
+    
+}
+#inputPlace:focus{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    outline: none;
+}
+
+
+
+.currentTrip-name>img {
+  width: 2.5vw;
+  height: 3vh;
+}
+
+.currentTrip-name>p {
+  color: #000;
+
+  font-family: var(--font-arial);
+  font-size: 2em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* ****************** */
+/*    Recommended    */
+/* **************** */
+.currentTrip-recommended {
+  padding: 1vw;
+  width: 100%;
+  min-height: 80%;
+  max-height: 83%;
+  background-color: var(--color-white-lower-opacity);
+  border-radius: 2vw 2vw 2px 2px;
+
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+
+}
+
+#loadTextForRec p {
+  color: #000;
+
+  text-align: center;
+  font-family: var(--font-arial-bold);
+  font-size: 1.4em;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+/* ****************** */
+/* Recommended Hotels*/
+/* **************** */
+.output-all-rec-boxes-singleBox {
+  margin-top: 0.3vw;
+  min-width: 17vw;
+  min-height: 14vw;
+  border-radius: 1vw;
+  border: 1.4px solid #000;
+
+  background-color: var(--color-offwhite);
+
+}
+.currenTrip-recommendedHotels {
+  margin-top: 2vw;
+  width: 100%;
+  height: 90%;
+
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+}
+
+/* ******* */
+/* HOTELS */
+/* ***** */
+
+/* HOTEL BOX */
+.output-all-boxes-singleBox {
+  min-width: 17vw;
+  min-height: 14vw;
+  border-radius: 1vw;
+  border: 1.4px solid #000;
+
+  background-color: var(--color-offwhite);
+
+}
+
+/* img */
+.singleBox-img {
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+  min-height: 8vw;
+  object-fit: cover;
+}
+
+.singleBox-img img {
+  width: 100%;
+  height: 8vw;
+  object-fit: cover;
+  border-radius: 1vw 1vw 0 0;
+}
+
+/* Info */
+.singleBox-info {
+  padding: 0.5vw 1vw 1vw 1vw;
+}
+
+/* First row */
+.singleBox-1row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-auto-rows: minmax(auto, 100%);
+  /* grid-template-columns: 50% 30% 20%; */
+}
+
+/* Name */
+.singleBox-rec-name {
+  max-width: 55%;
+  color: var(--color-black);
+
+  font-family: var(--font-arial-bold);
+  font-size: 1.2em;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  flex: 0 0 auto;
+}
+
+/* img */
+.singleBox-stars {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.singleBox-stars img {
+  width: 1vw;
+  height: 1vw;
+}
+
+/* Location */
+.singleBox-rec-location {
+  margin-top: 0.2vw;
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.singleBox-rec-location img {
+  width: 1vw;
+}
+
+.singleBox-rec-location p {
+  margin-left: 0.4vw;
+  margin-top: 0.2vw;
+  color: #323232;
+
+  font-family: var(--font-arial);
+  font-size: 1.2em;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+}
+
+/* row 2 */
+.singleBox-2row {
+  margin-top: 1vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Price */
+.singleBox-rec-price {
+  color: var(--color-black);
+  font-family: var(--font-arial);
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.price-rec-span {
+  margin-left: 0.4vw;
+  color: rgb(43, 43, 43);
+  font-family: var(--font-arial);
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Button */
+.button-18 {
+  align-items: center;
+  background-color: #0a66c2;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto,
+    "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+    "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  width: 5vw;
+}
+
+.button-18:hover,
+.button-18:focus {
+  background-color: #16437e;
+  color: #ffffff;
+}
+
+.button-18:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, 0.7);
+}
+
+.button-18:disabled {
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, 0.08);
+  color: rgba(0, 0, 0, 0.3);
+}
+
+
+
+/* *********** */
+/* **GRID 2** */
+/* ********* */
+.currentTrip-grid2 {
+  grid-column: 2;
+  background-color: var(--color-background-lightGreen);
+  /* width: 90%; */
+  margin: 3vw 3vw 1.4vw 3vw;
+  border-radius: 1vw;
+
+  padding: 2vw;
+}
+/* Ausg */
+.trip-alls {
+  margin: 2vw;
+  height: 90%;
+
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+
+}
+#error-message{
+  color: var(--color-black);
+  text-align: center;
+  font-family: var(--font-inter);
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+
+
+/* Hotels */
+.trip-hotels>p {
+  color: var(--color-text-black);
+  font-family: var(--font-inter);
+  font-size: 1.4em;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.trip-hotels-ausg {
+  display: grid;
+  justify-items: center;
+}
+
+.hotel-ausg-box {
+  /* z-index: ; */
+  width: 90%;
+  /* height: 25vh; */
+  background-color: var(--color-offWhite);
+
+  border-radius: 0.5vw;
+
+  margin-top: 0.25vw;
+  margin-bottom: 0.25vw;
+}
+
+.hotel-ausg-box-grid {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  width: 100%;
+  height: 100%;
+}
+
+/* hotels-img */
+
+.hotel-ausg-box-grid1 {
+  grid-column: 0;
+  height: 100%;
+  /* object-fit: cover !important; */ /* Diese Zeile ist unnötig und wird entfernt */
+}
+
+.hotel-ausg-box-grid1 img {
+  width: 100%;
+  height: 100%;
+  object-fit:cover !important;
+  border-radius: 0.5vw;
+}
+
+
+
+/* Grid 2 - Infos */
+.hotel-ausg-box-grid2 {
+  padding: 1vw;
+}
+
+/* Layout */
+.hotel-grid2-1row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.hotel-grid2-2row {
+  margin-top: 0.7vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+  grid-auto-rows: minmax(auto, 100%);
+
+}
+
+/* 1ROW */
+/* headl */
+.hotel-grid2-1row>p {
+  max-width: 80%;
+  color: var(--color-black);
+
+  font-family: var(--font-arial-bold);
+  font-size: var(--font-size-ausg-name);
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  flex: 0 0 auto;
+}
+
+/* stars */
+.hotel-grid2-1row-stars {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+
+  padding-top: 0.4vw;
+}
+
+.hotel-grid2-1row-stars img {
+  width: 1vw;
+  height: 1vw;
+}
+
+
+/* 2ROW */
+/* row 2 */
+.singleBox-2row {
+  margin-top: 1vw;
+  display: flex;
+  justify-content: space-between;
+}
+/* Description */
+.singleBox-description {
+  color: var(--color-black);
+  font-family: var(--font-arial);
+  font-size: 1.2em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  max-width: 80%;
+}
+/* img */
+.hotel-location {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.hotel-location img {
+  width: 1.5vw;
+}
+
+.hotel-location p {
+  margin-left: 0.4vw;
+  margin-top: 0.2vw;
+  color: #323232;
+
+  font-family: var(--font-arial);
+  font-size: 1.2em;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+
+  /* max-width: 60%; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* white-space: nowrap; */
+}
+
+/* Price */
+.hotel-price {
+  color: var(--color-black);
+  font-family: var(--font-arial-bold);
+  font-size: 1.6em;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+}
+
+.hotel-price-span {
+  margin-left: 0.4vw;
+  color: rgb(43, 43, 43);
+  font-family: var(--font-arial);
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* 3ROW */
+.hotel-grid2-3row {
+  margin-top: 0.4vw;
+}
+
+
+
+/*  */
+/*  */
+/* Cars */
+.trip-cars {
+  margin-top: 2vw;
+}
+
+.trip-cars>p {
+  color: var(--color-text-black);
+  font-family: var(--font-inter);
+  font-size: 1.4em;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.trip-cars-ausg {
+  display: grid;
+  justify-items: center;
+}
+
+.cars-ausg-box {
+  /* z-index: ; */
+  width: 90%;
+  height: 19vh;
+  background-color: var(--color-offWhite);
+
+  border-radius: 0.5vw;
+
+  margin-top: 0.25vw;
+  margin-bottom: 0.25vw;
+}
+
+.cars-ausg-box-grid {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  width: 100%;
+  height: 100%;
+
+}
+
+/* hotels-img */
+.cars-ausg-box-grid1 {
+  grid-column: 0;
+  height: 19vh;
+}
+
+.cars-ausg-box-grid1 img {
+  /* width: 100%; */
+  width: 100%;
+  height: 19vh;
+
+
+  border-radius: 0.5vw;
+
+  object-fit: cover;
+}
+
+.cars-ausg-box-grid1 {
+  grid-column: 1;
+}
+
+/* Grid 2 - Infos */
+.cars-ausg-box-grid2 {
+  padding: 1vw;
+}
+
+/* Layout */
+.cars-grid2-1row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.cars-grid2-2row {
+  margin-top: 0.7vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+  grid-auto-rows: minmax(auto, 100%);
+
+}
+
+/* 1ROW */
+/* headl */
+.cars-grid2-1row>p {
+  max-width: 80%;
+  color: var(--color-black);
+
+  font-family: var(--font-arial-bold);
+  font-size: var(--font-size-ausg-name);
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  flex: 0 0 auto;
+}
+
+/* 2ROW */
+/* img */
+.cars-km {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+
+}
+
+.cars-km img {
+  width: 3vw;
+}
+
+.cars-km p {
+  color: var(--color-text-black);
+
+  font-family: var(--font-inter);
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Price */
+.cars-price {
+  color: var(--color-black);
+  font-family: var(--font-arial-bold);
+  font-size: 1.5em;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+}
+
+.cars-price-span {
+  margin-left: 0.4vw;
+  color: rgb(43, 43, 43);
+  font-family: var(--font-arial);
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* 3ROW */
+.cars-grid2-3row {
+  margin-top: 0.4vw;
+}
+
+
+
+
+/* Flights */
+.trip-flights {
+  margin-top: 2vw;
+}
+
+.trip-flights>p {
+  color: var(--color-text-black);
+  font-family: var(--font-inter);
+  font-size: 1.4em;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.trip-flights-ausg {
+  display: grid;
+  justify-items: center;
+}
+
+.flights-ausg-box {
+  /* z-index: ; */
+  width: 90%;
+  height: 19vh;
+  background-color: var(--color-offWhite);
+
+  border-radius: 0.5vw;
+
+  margin-top: 0.25vw;
+  margin-bottom: 0.25vw;
+}
+
+.flights-ausg-box-grid {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  width: 100%;
+  height: 100%;
+
+}
+
+/* hotels-img */
+.flights-ausg-box-grid1 {
+  grid-column: 0;
+  height: 19vh;
+}
+
+.flights-ausg-box-grid1 img {
+  /* width: 100%; */
+  width: 100%;
+  height: 19vh;
+
+
+  border-radius: 0.5vw;
+
+  object-fit:fill;
+}
+
+.flights-ausg-box-grid1 {
+  grid-column: 1;
+}
+
+/* Grid 2 - Infos */
+.flights-ausg-box-grid2 {
+  padding: 1vw;
+}
+
+/* Layout */
+.flights-grid2-1row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.flights-grid2-2row {
+  margin-top: 0.7vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+  grid-auto-rows: minmax(auto, 100%);
+
+}
+
+/* 1ROW */
+/* headl */
+.flights-grid2-1row>p {
+  max-width: 80%;
+  color: var(--color-black);
+
+  font-family: var(--font-arial-bold);
+  font-size: var(--font-size-ausg-name);
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  flex: 0 0 auto;
+}
+
+/* Departing */
+.flights-grid2-1row-dep {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+
+  /* padding-top: 0.4vw; */
+}
+
+.flights-grid2-1row-dep img {
+  width: 1.5vw;
+  height: 1.5vw;
+}
+
+.flights-grid2-1row-dep p {
+  color: var(--color-text-black);
+
+  font-family: var(--font-inter);
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* 2ROW */
+/* img */
+
+/* Price */
+.flights-price {
+  color: var(--color-black);
+  font-family: var(--font-arial-bold);
+  font-size: 1.5em;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+}
+
+.flights-price-span {
+  margin-left: 0.4vw;
+  color: rgb(43, 43, 43);
+  font-family: var(--font-arial);
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* 3ROW */
+.flights-grid2-3row {
+  margin-top: 1.4vw;
+}
+
+
+
+
+/* activities */
+.trip-activities {
+  margin-top: 2vw;
+}
+
+.trip-activities>p {
+  color: var(--color-text-black);
+  font-family: var(--font-inter);
+  font-size: 1.4em;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.trip-activities-ausg {
+  display: grid;
+  justify-items: center;
+}
+
+  
+  /* HOTEL BOX */
+  .singleBox {
+    width: 90%;
+    height: 22vh;
+    background-color: var(--color-offWhite);
+  
+    border-radius: 0.5vw;
+  
+    margin-top: 0.25vw;
+    margin-bottom: 0.25vw;
+  }
+  
+
+  /* Info */
+  .singleBox-info {
+    padding: 0.5vw 1vw 1vw 1vw;
+  }
+  
+  /* First row */
+  .singleBox-1row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Name */
+  .singleBox-name {
+    max-width: 80%;
+    color: var(--color-black);
+  
+    font-family: var(--font-inter);
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  
+    flex: 0 0 auto;
+  }
+  
+  
+  /* Location */
+  .singleBox-icon {
+    flex: 0 0 auto;
+    display: flex;
+  
+    margin-top: 0.2vw;
+    padding: 0 0.4vw 0 0.4vw ;
+    object-fit: cover;
+  }
+  
+  .singleBox-icon img {
+    width: 1.5vw;
+    height: 1.5vw;
+  }
+  
+  .singleBox-icon p {
+    margin-left: 0.4vw;
+    /* margin-top: 0.2vw; */
+    color: #323232;
+  
+    font-family: var(--font-arial);
+    font-size: 1.7em;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+  }
+  
+  /* row 2 */
+  .singleBox-2row {
+    margin-top: 0.6vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Price */
+  .singleBox-price {
+    max-width: 80%;
+    color: var(--color-black);
+    font-family: var(--font-arial-thin);
+    font-size: 1.3em;
+    font-style:normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+
+  /* 3 row */
+  .singleBox-3row {
+    margin-top: 1vw;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+
+
+
+
+
+
+
+
+
+/* **** */
+/* ALL */
+/* ** */
+
+/* Button */
+.remove-button-18 {
+  align-items: center;
+  background-color: #0a66c2;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto,
+    "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+    "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  width: 6vw;
+}
+
+.remove-button-18:hover:hover,
+.remove-button-18:focus {
+  background-color: #16437e;
+  color: #ffffff;
+}
+
+.remove-button-18:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, 0.7);
+}
+
+.remove-button-18:disabled {
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, 0.08);
+  color: rgba(0, 0, 0, 0.3);
+}
