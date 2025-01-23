@@ -9,27 +9,27 @@ setCurrentPage();
 
 // ---------------- Start ---------------------
 document.getElementById("startFree").addEventListener("click", function () {
-    window.location.href = "/html/yourTrip-2nd.html"; // Absoluter Pfad
+    window.location.href = "./html/yourTrip-2nd.html"; // Absoluter Pfad
 });
 
 // NAV
 document.getElementById("backToStart").addEventListener("click", function () {
-    window.location.href = "/index.html"; // Absoluter Pfad
+    window.location.href = "./index.html"; // Absoluter Pfad
 });
 document.getElementById("yourTripText").addEventListener("click", function () {
-    window.location.href = "/html/yourTrip-2nd.html"; // Absoluter Pfad
+    window.location.href = "./html/yourTrip-2nd.html"; // Absoluter Pfad
 });
 document.getElementById("hotelsText").addEventListener("click", function () {
-    window.location.href = "/html/hotel.html"; // Absoluter Pfad
+    window.location.href = "./html/hotel.html"; // Absoluter Pfad
 });
 document.getElementById("flightsText").addEventListener("click", function () {
-    window.location.href = "/html/flights.html"; // Absoluter Pfad
+    window.location.href = "./html/flights.html"; // Absoluter Pfad
 });
 document.getElementById("carsText").addEventListener("click", function () {
-    window.location.href = "/html/cars.html"; // Absoluter Pfad
+    window.location.href = "./html/cars.html"; // Absoluter Pfad
 });
 document.getElementById("activitiesText").addEventListener("click", function () {
-    window.location.href = "/html/activities.html"; // Absoluter Pfad
+    window.location.href = "./html/activities.html"; // Absoluter Pfad
 });
 
 // Back To Top
@@ -40,17 +40,17 @@ mybutton.onclick = function () {
 
 // Footer Links
 document.getElementById("FyourTrip").addEventListener("click", function () {
-    window.location.href = "/html/yourTrip-2nd.html"; // Absoluter Pfad
+    window.location.href = "./html/yourTrip-2nd.html"; // Absoluter Pfad
 });
 document.getElementById("Fhotels").addEventListener("click", function () {
-    window.location.href = "/html/hotel.html"; // Absoluter Pfad
+    window.location.href = "./html/hotel.html"; // Absoluter Pfad
 });
 document.getElementById("Fflights").addEventListener("click", function () {
-    window.location.href = "/html/flights.html"; // Absoluter Pfad
+    window.location.href = "./html/flights.html"; // Absoluter Pfad
 });
 document.getElementById("Fcars").addEventListener("click", function () {
-    window.location.href = "/html/cars.html"; // Absoluter Pfad
+    window.location.href = "./html/cars.html"; // Absoluter Pfad
 });
 document.getElementById("Factivities").addEventListener("click", function () {
-    window.location.href = "/html/activities.html"; // Absoluter Pfad
+    window.location.href = "./html/activities.html"; // Absoluter Pfad
 });
